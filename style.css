@@ -16,6 +16,11 @@ body {
     color: white;
 }
 
+.galeria div {
+    position: relative;
+    text-align: center;
+}
+
 .galeria img {
     position: relative;
     width: 100%;
@@ -25,13 +30,14 @@ body {
     border: 4px solid white;
 }
 
-.galeria h2 {
-    padding-left: 40px;
-    width: 98%;
-    position: relative;
+div h2 {
+    width: 100%;
+    position: absolute;
     text-align: center;
     z-index: 1;
-    background-color: rgba(126, 126, 126, 0.329);
+    background-color: black;
     box-shadow: 16px 16px #0000;
-    bottom: 50px;
+    bottom: 8px;
 }
+
+.galeria 
