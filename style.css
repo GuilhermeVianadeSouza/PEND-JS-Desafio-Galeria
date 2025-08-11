@@ -17,11 +17,21 @@ body {
 }
 
 .galeria img {
+    position: relative;
     width: 100%;
+    text-align: center;
+    color: blue;
     padding-block: 8px;
     border: 4px solid white;
 }
 
 .galeria h2 {
+    padding-left: 10px;
+    width: 98%;
+    position: relative;
     text-align: center;
+    z-index: 1;
+    background-color: rgba(126, 126, 126, 0.329);
+    box-shadow: 16px 16px #0000;
+    bottom: 50px;
 }
