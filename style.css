@@ -1,0 +1,27 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body {
+    padding-block: 8px;
+    place-content: center;
+    background-color: aquamarine;
+}
+
+.galeria {
+    display: columns;
+    columns: 3;
+    color: white;
+}
+
+.galeria img {
+    width: 100%;
+    padding-block: 8px;
+    border: 4px solid white;
+}
+
+.galeria h2 {
+    text-align: center;
+}
