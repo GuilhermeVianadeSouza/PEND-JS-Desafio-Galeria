@@ -22,8 +22,8 @@ const imagens = [
         url: './img/acara-disco.jpg'
     },
     {
-        nome: 'peixe acara-festivo',
-        url: './img/acara-festivo.webp'
+        nome: 'peixe acara-severum',
+        url: './img/acara-severum.webp'
     },
     {
         nome: 'peixe acara-joia',
@@ -34,8 +34,8 @@ const imagens = [
         url: './img/acara-pixuna.jpg'
     },
     {
-        nome: 'peixe acara-severum',
-        url: './img/acara-severum.webp'
+        nome: 'peixe acara-festivo',
+        url: '/img/acara-festivo.webp'
     }
 ]
 
