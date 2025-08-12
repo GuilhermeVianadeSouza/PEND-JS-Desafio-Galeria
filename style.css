@@ -7,7 +7,8 @@ box-sizing: border-box;
 body {
     padding-block: 8px;
     place-content: center;
-    background-color: aquamarine;
+    background-color: rgb(127, 183, 209);
+    box-shadow: 16px 16px 16px black;
 }
 
 .galeria {
@@ -23,7 +24,8 @@ body {
 }
 
 .galeria img {
-    position: relative;
+    border-radius: 50%;
+
     width: 100%;
     text-align: center;
     color: blue;
@@ -34,7 +36,6 @@ body {
 div h2 {
     position: relative;
     text-align: center;
-    z-index: 1;
     background-color: black;
     box-shadow: 16px 16px #0000
 }
