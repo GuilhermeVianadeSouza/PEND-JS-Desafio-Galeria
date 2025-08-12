@@ -17,8 +17,9 @@ body {
 }
 
 .galeria div {
-    position: relative;
+    position: flex;
     text-align: center;
+    flex-direction: column;
 }
 
 .galeria img {
@@ -31,13 +32,9 @@ body {
 }
 
 div h2 {
-    width: 100%;
-    position: absolute;
+    position: relative;
     text-align: center;
     z-index: 1;
     background-color: black;
-    box-shadow: 16px 16px #0000;
-    bottom: 8px;
+    box-shadow: 16px 16px #0000
 }
-
-.galeria 
