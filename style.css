@@ -21,19 +21,18 @@ body {
     position: flex;
     text-align: center;
     flex-direction: column;
+    padding-block: 16px;
 }
 
 .galeria img {
     border-radius: 50%;
-
     width: 100%;
     text-align: center;
-    color: blue;
-    padding-block: 8px;
-    border: 4px solid white;
+    border: 16px solid rgba(0, 0, 0, 0.767);
 }
 
 div h2 {
+    border-radius: 16px;
     position: relative;
     text-align: center;
     background-color: black;
